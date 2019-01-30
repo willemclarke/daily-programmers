@@ -24,10 +24,12 @@ const answerVowel = printedVowels.join('')
 console.log(answer)
 console.log(answerVowel)
 
+// Output:
+// ddyhrbtthxcllntfrmrwhwststndngnhsfld
+// ioueaaoueeeeaeoaouaiiiie
 
 
-// another function
-// Bass version
+// Another way to solve problem - bass's solutions
 // const charactersToRemove = [' ', 'a', 'e', 'i', 'o', 'u']
 // const answer = 'all those who believe in psychokinesis raise my hand'.split('')
 //   .filter(character => !charactersToRemove.includes(character))
