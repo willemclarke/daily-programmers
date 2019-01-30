@@ -7,7 +7,7 @@ function removedSpacesVowels(character) {
   } else {
     return true;
   }
-}
+};
 
 function maintainVowels(character) {
   if (character === ' ' || !charactersToRemove.includes(character)) {
@@ -15,14 +15,14 @@ function maintainVowels(character) {
   } else {
     return true;
   }
-}
+};
 
 const removedCharactersAndSpaces = input.filter(removedSpacesVowels);
-const answer = removedCharactersAndSpaces.join('')
-const printedVowels = input.filter(maintainVowels)
-const answerVowel = printedVowels.join('')
-console.log(answer)
-console.log(answerVowel)
+const answer = removedCharactersAndSpaces.join('');
+const printedVowels = input.filter(maintainVowels);
+const answerVowel = printedVowels.join('');
+console.log(answer);
+console.log(answerVowel);
 
 // Output:
 // ddyhrbtthxcllntfrmrwhwststndngnhsfld
