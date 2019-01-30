@@ -23,3 +23,6 @@ const exceptions = checkedWords.filter(word => {
 const result = exceptions.length;
 
 console.log(result);
+
+//Output:
+// 2169
