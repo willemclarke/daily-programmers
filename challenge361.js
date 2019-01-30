@@ -53,4 +53,11 @@ const scoreE = separatedE.map(scoring)
 const totalE = scoreE.reduce((a, b) => a + b, 0)
 const printedE = console.log('e:' + totalE)
 
+// Output:
+// a:1
+// b:0
+// c:3
+// d:2
+// e:1
+
 
