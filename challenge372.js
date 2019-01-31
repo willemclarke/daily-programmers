@@ -21,14 +21,7 @@ console.log(perfectlyBalanced(inputFour)); // outputs false
 console.log(perfectlyBalanced(inputFive)); // outputs true
 console.log(perfectlyBalanced(inputSix)); // outputs false
 
-// Output:
-// true
-// true
-// false
-// true
-// false
-// true
-// false
+
 
 
 
