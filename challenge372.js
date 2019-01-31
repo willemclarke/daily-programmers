@@ -5,6 +5,7 @@ function perfectlyBalanced(str) {
     return false;
     }
 }
+
 const input = "xxxyyyzzz";
 const inputOne = "yyyxxx";
 const inputTwo = "xxxyyyy";
