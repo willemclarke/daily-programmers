@@ -1,4 +1,4 @@
-const input = 'all those who believe in psychokinesis raise my hand'.split('');
+const input = 'did you hear about the excellent farmer who was outstanding in his field'.split('');
 const charactersToRemove = [' ', 'a', 'e', 'i', 'o', 'u'];
 
 function removedSpacesVowels(character) {
