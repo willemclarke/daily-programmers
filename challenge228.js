@@ -27,8 +27,7 @@ function determineOrder(input) {
     return input + " IN ORDER";
   } else if (reverseSort === input) {
     return input + " IN REVERSE ORDER";
-  } else sort !== input && reverseSort !== input;
-  return input + " NOT IN ORDER";
+  } else return input + " NOT IN ORDER";
 }
 
 const mappedOutputs = inputs.map(determineOrder);
